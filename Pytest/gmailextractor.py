@@ -8,4 +8,4 @@ pattern = r"\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b"
 
 result = re.findall(pattern , String)
 
-print(result)ds
+print(result)
