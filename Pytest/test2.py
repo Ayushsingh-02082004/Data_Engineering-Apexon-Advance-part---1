@@ -12,9 +12,10 @@ def test_skip_example():
 
 
 # 🔹 2. Skip if condition is true
-@pytest.mark.skipif(20 < 10, reason="Condition is true so skipping")
+N = 11
+@pytest.mark.skipif(N > 10, reason="Condition is true so skipping")
 def test_skipif_example():
-    assert is_even(20) == True
+    assert is_even(N) == True
 
 
 # 🔹 3. Dynamic skip using logic
